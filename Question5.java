@@ -34,7 +34,7 @@ public class Question5
       Map<Integer, Integer> map = new HashMap<>();
 
       for (int i = 0; i < n; i++) {
-          System.out.printf("Enter integer %d: ", i + 1);
+          // System.out.printf("Enter integer %d: ", i + 1);
           int num = in.nextInt();
 
           map.put(num, map.getOrDefault(num, 0) + 1);
