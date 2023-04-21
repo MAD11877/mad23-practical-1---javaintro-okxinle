@@ -16,6 +16,6 @@ public class Question3
     int num = in.nextInt();
 
     int result = num * num;
-    //System.out.printf("%d multiplied by itself is: %d", num, result);
+    System.out.printf("%d multiplied by itself is: %d", num, result);
   }
 }

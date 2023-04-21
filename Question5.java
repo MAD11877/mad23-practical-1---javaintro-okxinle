@@ -41,7 +41,7 @@ public class Question5
       }
 
       int mode = Collections.max(map.entrySet(), Map.Entry.comparingByValue()).getKey();
-      // System.out.printf("The mode is: %d", mode);
+      System.out.printf("The mode is: %d", mode);
     }
     
   }
